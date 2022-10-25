@@ -10,7 +10,6 @@ abstract contract BaseTest is Test {
     address payable internal deployer;
     address payable internal alice;
     address payable internal bob;
-    address payable internal bob;
     address payable internal carol;
 
     function setUp() public virtual {
@@ -43,7 +42,7 @@ abstract contract BaseTest is Test {
         vm.createSelectFork(vm.envString("MAINNET_RPC_URL"), blockNumber);
     }
 
-    function forkOptimism(uint256 blockNumber) interanl {
+    function forkOptimism(uint256 blockNumber) internal {
         vm.createSelectFork(vm.envString("OPTIMISM_RPC_URL"), blockNumber);
     }
 
