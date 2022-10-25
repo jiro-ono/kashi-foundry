@@ -2,5 +2,19 @@
 src = 'src'
 out = 'out'
 libs = ['lib']
+solc_version = "0.8.15"
+verbosity = 1
+remappings = [
+    '/=src',
+    "OpenZeppelin/=lib/openzeppelin-contracts/contracts",
+    'utils/=utils',
+    'libraries/=src/libraries',
+    'interfaces/=src/interfaces',
+    'pairs/=src/pairs',
+    'swappers/=src/swappers',
+    'oracles/=src/oracles',
+    'tokens/=src/tokens',
+    'periphery/=src/periphery',
+]
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
