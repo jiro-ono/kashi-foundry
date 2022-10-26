@@ -1,6 +1,7 @@
 /=src/
 BoringSolidity/=lib/BoringSolidity/contracts/
 OpenZeppelin/=lib/openzeppelin-contracts/contracts/
+solbase/=lib/solbase/src/
 ds-test/=lib/forge-std/lib/ds-test/src/
 forge-std/=lib/forge-std/src/
 interfaces/=src/interfaces/

@@ -1,3 +1,4 @@
+-include .env.defaults
 -include .env
 export
 
@@ -29,4 +30,6 @@ playground:
 playground-trace: FOUNDRY_TEST:=playground
 playground-trace:
 	forge test --match-path playground/Playground.t.sol -vvvv --gas-report
+
+.PHONY: test playground
 

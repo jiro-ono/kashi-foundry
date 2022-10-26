@@ -35,7 +35,7 @@ contract Constants {
         // Fantom
 
 
-        pairCodeHash("mainnet.sushiV2") = 0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303;
+        pairCodeHash["mainnet.sushiV2"] = 0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303;
         // bytescodehashes for trident pool types
     }
 
