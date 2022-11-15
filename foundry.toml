@@ -9,6 +9,7 @@ remappings = [
     'OpenZeppelin/=lib/openzeppelin-contracts/contracts',
     'forge-std/=lib/forge-std/src/',
     'utils/=utils',
+    'script/=script',
     'libraries/=src/libraries',
     'interfaces/=src/interfaces',
     'pairs/=src/pairs',
