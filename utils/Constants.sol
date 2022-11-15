@@ -19,9 +19,12 @@ contract Constants {
         setAddress("mainnet.sushi", 0x6B3595068778DD592e39A122f4f5a5cF09C90fE2);
         setAddress("mainnet.usdc", 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48);
         setAddress("mainnet.usdt", 0xdAC17F958D2ee523a2206206994597C13D831ec7);
-        setAddress("mainnet.chainlink.eth", 0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419);
-        setAddress("mainnet.chainlink.sushi", 0xCc70F09A6CC17553b2E31954cD36E4A2d89501f7);
-        setAddress("mainnet.chainlink.usdc", 0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6);
+        setAddress("mainnet.chainlink.usdc.eth", 0x986b5E1e1755e3C2440e960477f25201B0a8bbD4); // usdc/eth
+        setAddress("mainnet.chainlink.sushi.eth", 0xe572CeF69f43c2E488b33924AF04BDacE19079cf); // sushi/eth
+        setAddress("mainnet.chainlink.usdc", 0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6); // usdc/usd
+        setAddress("mainnet.oracle.chainlinkV2", 0x00632CFe43d8F9f8E6cD0d39Ffa3D4fa7ec73CFB);
+
+        setAddress("mainnet.kashiV1.usdc.sushi", 0x263716dEe5b74C5Baed665Cb19c6017e51296fa2);
 
         // Optimism
 
